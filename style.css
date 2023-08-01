@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300&family=Raleway:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300&family=Raleway:ital,wght@0,400;0,700;1,500&display=swap');
+header, body, footer{
+    font-family: "Raleway", sans-serif;
+}
+h1, h2, h3{
+    font-family: "Lato", sans-serif;
+    
+}
+
+header{
+    text-align: center;
+    background-color: brown;
+    
+}
+body{
+    height: 1400px;
+    width: 1160px;
+    margin: auto;
+}
+img{
+    width: 70px;
+    height: 70px;
+}
+
+.photo:hover{
+    cursor: zoom-in;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    box-shadow: 0 0 7px 5px black;
+}
+h1, h2{
+    color: white;
+}
+
+section{
+    height: 1100px;
+    display: flex;
+    flex-direction: row;
+
+}
+.contacts{
+    background-color: #2c1d27;
+    height: 20px;
+    text-align: center;
+    margin-top: -20px;
+    padding: 25px;
+}
+.location {
+    float: left;
+    
+}
+.telephone{
+    float: right;
+}
+.about {
+    background-color: #782221;
+    display: flex;
+    flex-direction: column;
+    height: 1150px;
+    width: 300px;
+    padding-left: 15px;
+}
+h3{
+    background-color: #dbc2a4;
+    width: 270px;
+}
+.introduction, .language-list, .hobbies, .social-network{
+    color: white;
+}
+.experience{
+    height: 500px;
+    width: 480px;
+    padding-left: 20px;
+}
+footer{
+    background-color: #782221;
+    height: 170px;
+    text-align: center;
+    padding-top: 30px;
+}
